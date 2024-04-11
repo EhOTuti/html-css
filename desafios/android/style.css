@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'idroid';
+    src: url('conteudos/fontes/idroid.otf') format('opentype');
+    
+}
+p {
+    padding: 10px;
+}
+h1 {
+    padding: 10px;
+}
+h2 {
+    padding: 5px;
+}
+a.links {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    text-align: left;
+    color: #6AB07F;
+    padding: 10px 10px 0px 10px;
+}
+a.links:hover {
+    color: #07441B;
+    background-color: #6AB07F;
+    border-radius: 5px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #6AB07F, #07441B);
+    
+    padding: 50px 0px 0px 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.274);
+    box-shadow: -1px 0px 0px transparent;
+ 
+    
+}
+header > h1 {
+    text-align: center;
+
+}
+
+header > p {
+    font-weight: lighter;
+    text-align: center;
+}
+body{
+    margin: 0px;
+    background-color: #E5D8B9;
+
+}
+main {
+    background-color: white;
+    margin: 0px 50px;
+    
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.397);
+}
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main > h1 {
+    color: #07441B;
+    font-family: 'idroid';
+    font-size: 1.7em;
+}
+main > h2 {
+    font-family: 'idroid';
+    font-size: 1.2em;
+    color: #07441B;
+    background-image: linear-gradient(to right,#6AB07F, white);
+}
+span.citando {
+    color: black;
+    background-color: #6AB07F;
+    padding: 1px 5px;
+}
+span > a {
+    text-decoration: none;
+}
+section#video{
+    background-color: #07441B;
+    padding: 10px;
+    margin: 10px 0px;
+        
+}
+div {
+    background-color: #6AB07F;
+    border-radius: 15px;
+    margin: 10px;
+    
+}
+div > h3 {
+    color: white;
+    background-color: #07441B;
+    border-radius: 10px 15px 0px 0px;
+    padding: 5px 5px;
+    
+}
+footer {
+    background-color: #07441B;
+    text-align: center;
+    color: white;
+    
+    padding: 0px 0px 5px 0px;
+}
+span.destaque {
+    color: #07441B;
+    font-weight: bolder;
+}
